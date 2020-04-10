@@ -1,0 +1,20 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "composite": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "lib": ["dom", "dom.iterable", "es2018", "esnext.asynciterable"],
+    "module": "esnext",
+    "target": "es2017",
+    "pretty": true
+  },
+  "include": ["./src/**/*"]
+}
