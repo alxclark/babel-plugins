@@ -7,6 +7,7 @@ module.exports = {
     'plugin:shopify/jest',
   ],
   rules: {
+    'babel/object-curly-spacing': 'off',
     'lines-around-comment': 'off',
     // Let's us write todo comments
     'no-warning-comments': 'off',

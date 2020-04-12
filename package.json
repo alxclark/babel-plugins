@@ -5,14 +5,22 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "alxclark",
   "license": "ISC",
   "devDependencies": {
+    "@babel/types": "^7.9.5",
+    "@shopify/babel-preset": "22.0.1",
+    "@types/babel-types": "^7.0.7",
+    "babel-plugin-tester": "^9.0.1",
     "eslint": "^6.8.0",
     "eslint-plugin-shopify": "^35.1.0",
     "prettier": "^2.0.4",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "babel-core": "6.26.3",
+    "jest": "^25.3.0"
   }
 }
